@@ -1,0 +1,18 @@
+{
+    "name": "antoi/composer3",
+    "description": "talking cows",
+    "autoload": {
+        "psr-4": {
+            "Antoi\\Composer3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antoine Leclabart",
+            "email": "antoine.leclabart@gmail.com"
+        }
+    ],
+    "require": {
+        "gipetto/cowsay": "^1.1"
+    }
+}
